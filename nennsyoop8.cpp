@@ -16,11 +16,11 @@ int main() {
 		cout << endl << i << "  Student: " << endl;
 		Student Vasya;
 		cin >> Vasya;
-		cout << Vasya;
+		cout << Vasya << endl;
 		Array(arr, i, Vasya);
 		i += 1;
 	}
-	cout << endl << endl <<  "Name" << "   " << "Group" << "   " << "Age" << "   " << "Kurs" << endl;
+	
 	for (int j = 0; j < n+1; j++) {
 		for (int k = 0; k < 4; k++) {
 			cout << arr[j][k] << "  ";
