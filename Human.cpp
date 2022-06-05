@@ -9,7 +9,7 @@ istream& operator >>(istream& in, Student& p) {
 
 
 ostream& operator <<(ostream& os, const Student& p) {
-	return os << "name=" << p.name << "\tgroup= " << p.group << "\tage= " << p.age << "\theight= " << p.kurs;
+	return os << "name=" << p.name << "		group= " << p.group << "	age= " << p.age << "	height= " << p.kurs;
 
 }
 void Array(string** arr, int i, Student& p) {

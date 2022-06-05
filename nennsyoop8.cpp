@@ -1,6 +1,7 @@
 ﻿#include "Human.h"
 int main() {
 	string s = "Yes";
+	cout << " Number of students: ";
 	int n;
 	cin >> n;
 	int i = 1;
