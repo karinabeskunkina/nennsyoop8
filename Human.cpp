@@ -12,11 +12,8 @@ ostream& operator <<(ostream& os, const Student& p) {
 	return os << "name=" << p.name << "		group= " << p.group << "	age= " << p.age << "	height= " << p.kurs;
 
 }
-void Array(string** arr, int i, Student& p) {
 
-	arr[i][0] = p.name;
-	arr[i][1] = p.group;
-	arr[i][2] = p.age;
-	arr[i][3] = p.kurs;
+void Student::print(Student arr) {
+	cout << arr.name << "\t" << arr.age << "\t" << arr.group << "\t" << arr.kurs << endl;
 
- }
+}

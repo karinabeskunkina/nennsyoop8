@@ -17,10 +17,10 @@ public:
  string name = "", group = "";
  string age = "";
  string kurs = "";
-
+ void print(Student arr);
 };
 
 istream& operator >>(istream& in, Student& p);
 ostream& operator <<(ostream& os, const Student& p);
-void Array(string** arr, int i, Student& p);
+
 #endif
