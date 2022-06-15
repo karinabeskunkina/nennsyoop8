@@ -14,6 +14,6 @@ ostream& operator <<(ostream& os, const Student& p) {
 }
 
 void Student::print(Student arr) {
-	cout << arr.name << "\t" << arr.age << "\t" << arr.group << "\t" << arr.kurs << endl;
+	cout << endl <<arr.name << "\t" << arr.age << "\t" << arr.group << "\t" << arr.kurs << endl;
 
 }

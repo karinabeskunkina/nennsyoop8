@@ -4,20 +4,20 @@ int main() {
 	cout << " Number of students: ";
 	int n;
 	cin >> n;
-	int i = 1;
-	Student* arr = new Student[n+1];
+	int i = 0;
+	Student* arr = new Student[n];
 	
 	
-	while (i <= n) {
-		cout << endl << i << "  Student: " << endl;
+	while (i < n) {
+		cout << endl << i + 1 << "  Student: " << endl;
 		Student Vasya;
 		cin >> Vasya;
 		cout << Vasya << endl;
 		arr[i] = Vasya;
 		i += 1;
 	}
-	
-	for (int i = 1; i < n+1; ++i) {
+	cout << endl << endl;
+	for (int i = 0; i < n; ++i) {
 		arr[i].print(arr[i]);
 	}
 	return 0;
